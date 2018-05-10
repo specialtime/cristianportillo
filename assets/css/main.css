@@ -2560,13 +2560,15 @@
 	}
 /*CUSTOM - AGREGADO PARA LAS MODAL*/
 /* Style the Image Used to Trigger the Modal */
-#myImg1,#myImg2,#myImg3,#myImg4 {
+.myImg{
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
 }
 
-#myImg1:hover,#myImg2:hover,#myImg3:hover,#myImg4:hover {opacity: 0.7;}
+.myImg:hover {
+	opacity: 0.7;
+	}
 
 /* The Modal (background) */
 .modal {
