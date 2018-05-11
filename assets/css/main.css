@@ -1,5 +1,6 @@
 @import url("font-awesome.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600");
+@import url('https://fonts.googleapis.com/css?family=Bad+Script|Pacifico');
 
 /*
 	Prologue by HTML5 UP
@@ -2200,6 +2201,12 @@
 
 			#main > section.four {
 				background-color: #e8edec;
+			}
+			.intro {
+				font-family: 'Bad Script', cursive;
+			}
+			.hola {
+				font-family: 'Pacifico', cursive;
 			}
 
 /* Wide */
