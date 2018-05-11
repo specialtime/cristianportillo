@@ -2208,6 +2208,16 @@
 			.hola {
 				font-family: 'Pacifico', cursive;
 			}
+			.form-login {
+				background-color: #444;
+				width: 100px;
+				padding: 1em;
+				text-align: center;
+				border-radius: 10px;
+			}
+			.input-login {
+				margin:10px;
+			}
 
 /* Wide */
 
@@ -2631,18 +2641,19 @@
 }
 
 /* The Close Button */
-#close {
+.close {
     position: absolute;
     top: 15px;
     right: 35px;
     color: #f1f1f1;
     font-size: 40px;
     font-weight: bold;
-    transition: 0.3s;
+	transition: 0.3s;
+	float: right;
 }
 
-#close:hover,
-#close:focus {
+.close:hover,
+.close:focus {
     color: #bbb;
     text-decoration: none;
     cursor: pointer;

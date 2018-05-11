@@ -249,14 +249,24 @@ $('.myImg').click(function(){
     modal.style.display = "block";
 	var newSrc = this.src;
 	modalImg.attr('src', newSrc);
-	captionText.innerHTML = this.alt;
+    captionText.innerHTML = this.alt;
 })	
 
+var mylogin = document.getElementById('myLogin');
+var login =document.getElementById('login');
+login.onclick=function(){
+    mylogin.style.display = "block";
+}	
+
 // Get the <span> element that closes the modal
-var span = document.getElementById("close");
+var span =$('.close');
 
 // When the user clicks on <span> (x), close the modal
-span.onclick = function() { 
+span.click(function(){
 	modal.style.display = "none";
-  }
+})
+
+span.click(function(){
+	mylogin.style.display = "none";
+})
 
