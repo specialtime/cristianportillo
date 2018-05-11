@@ -255,9 +255,8 @@ $('.myImg').click(function(){
 var mylogin = document.getElementById('myLogin');
 var login =document.getElementById('login');
 login.onclick=function(){
-    mylogin.style.display = "block";
+	mylogin.style.display = "block";
 }	
-
 // Get the <span> element that closes the modal
 var span =$('.close');
 
