@@ -1594,7 +1594,7 @@
 		}
 
 	h2 {
-		font-size: 2em;
+		font-size: 1.5em;
 		letter-spacing: -1px;
 	}
 
@@ -2207,6 +2207,7 @@
 			}
 			.hola {
 				font-family: 'Pacifico', cursive;
+				font-size: 88%;
 			}
 
 /* Wide */
